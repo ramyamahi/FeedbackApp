@@ -13,16 +13,31 @@ body{
 	padding: 2%;
 }
 .logoImg {
-    height: 50px;
-    width: 50px;
-    float: left;
+  height: 50px;
+  width: 50px;
+  float: left;
+  border-radius: 25px;
 }
 .shopName {
-	position: relative;
 	color: #FBFBFB;
 	font-weight: bold;
 	text-align: center;
-	font-family: serif;
+	font-family: ubuntu;
+}
+#userBox{
+	margin-top: 7%;
+}
+.user{
+	color: #ccc;
+  font-family: ubuntu;
+  width: 70%;
+  float: left;
+  font-size: 12px;
+  padding-left: 15px;
+  padding-top: 7px;
+}
+#userName{
+	font-weight: bold
 }
 .admin {
 	color: #B1B3B5;
@@ -30,9 +45,33 @@ body{
 	font-size: 10px;
 	text-decoration: none;
 }
-.logoBox{
+.rowBox{
 	float: left;
 	width: 100%;
+	margin:2%;
+}
+.rightUser{
+	width: 40%
+}
+.score {
+	width: 40%;
+	float: left;
+	font-family: ubuntu;
+	color: #ccc;
+	margin:2%;
+}
+.escape {
+	width: 8%;
+	margin: 2%;
+	float: left;
+}
+.main {
+	color: #ED304B;
+	width: 100%;
+	float: left;
+	margin: 2%;
+	font-family: ubuntu;
+
 }
 .logout {
 	color: #B1B3B5;
@@ -40,9 +79,18 @@ body{
 	font-size: 10px;
 	text-decoration: none;
 }
-.searchHead {
-	color: rgb(74,79,83);
+.search {
+	width: 100%;
+	margin:2%;
+	float: left;
 }
+.scoreHead {
+	color: #24292E
+}
+#userName1 {
+	color: black;
+}
+
 
 
 
