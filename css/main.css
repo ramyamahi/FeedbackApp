@@ -1,9 +1,48 @@
+body{
+	height: 100%;
+}
 
+.wrapper{
+	width:100%;
+	height:100%;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
+.leftContent {
+	background-color: rgb(34,40,45);
+	height: 100vh;
+	padding: 2%;
+}
+.logoImg {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.shopName {
+	position: relative;
+	color: #FBFBFB;
+	font-weight: bold;
+	text-align: center;
+	font-family: serif;
+}
+.admin {
+	color: #B1B3B5;
+	margin-left: 98px;
+	font-size: 10px;
+	text-decoration: none;
+}
+.logoBox{
+	float: left;
+	width: 100%;
+}
+.logout {
+	color: #B1B3B5;
+	margin-left: 98px;
+	font-size: 10px;
+	text-decoration: none;
+}
+.searchHead {
+	color: rgb(74,79,83);
+}
 
 
 
