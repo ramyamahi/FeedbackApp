@@ -73,6 +73,23 @@ body{
 	font-family: ubuntu;
 
 }
+.skillRate {
+	color: #686D70;
+	margin-top: 42px;
+}
+.skillDetail {
+	width: 100%;
+}
+.skillDetailLeft {
+	width: 60%;
+	float: left;
+	color: #C6C8C9;
+}
+.rating {
+	width: 30%;
+	float: left;
+	color: #C6C8C9;
+}
 .logout {
 	color: #B1B3B5;
 	margin-left: 98px;
@@ -85,7 +102,7 @@ body{
 	float: left;
 }
 .scoreHead {
-	color: #24292E
+	color: #24292E;
 }
 #userName1 {
 	color: black;
