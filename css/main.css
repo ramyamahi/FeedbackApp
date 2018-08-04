@@ -37,7 +37,7 @@ body{
   padding-top: 7px;
 }
 #userName{
-	font-weight: bold
+	font-weight: bold;
 }
 .admin {
 	color: #B1B3B5;
@@ -50,6 +50,60 @@ body{
 	width: 100%;
 	margin:2%;
 }
+.searchHead {
+	color: #6E7275;
+}
+.searchicon {
+	width: 5%;
+}
+.searchbar {
+	background-color: #22282D;
+	outline: none;
+	border: none;
+	color: #3C3F42;
+	font-size: 11px;
+}
+.search1 {
+	border-bottom: 2px solid #3C3F42;
+}
+.userGrp1{
+	float: left;
+	width: 100%;
+	margin:2%;
+	}
+	.user1 {
+		float: left;
+    border-radius: 118px;
+    width: 33px;
+	}
+	#userId1 {
+		color: #ccc;
+    font-family: ubuntu;
+    width: 70%;
+    float: left;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 7px;
+	}
+	.userGrp2{
+	float: left;
+	width: 100%;
+	margin:2%;
+	}
+	.user2 {
+		float: left;
+    border-radius: 118px;
+    width: 33px;
+	}
+	#userId2 {
+		color: #ccc;
+    font-family: ubuntu;
+    width: 70%;
+    float: left;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 7px;
+	}
 .rightUser{
 	width: 40%
 }
@@ -59,6 +113,9 @@ body{
 	font-family: ubuntu;
 	color: #ccc;
 	margin:2%;
+}
+.closeImg {
+	width: 37%;
 }
 .escape {
 	width: 8%;
@@ -90,6 +147,13 @@ body{
 	float: left;
 	color: #C6C8C9;
 }
+.ratingNum {
+	position: absolute;
+}
+.stars {
+	position: relative;
+	float: right;
+}
 .logout {
 	color: #B1B3B5;
 	margin-left: 98px;
@@ -98,7 +162,7 @@ body{
 }
 .search {
 	width: 100%;
-	margin:2%;
+	margin:3%;
 	float: left;
 }
 .scoreHead {
