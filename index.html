@@ -11,21 +11,55 @@
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-		<link rel="stylesheet" href="css/signup.css">
+		<link rel="stylesheet" href="css/form.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 	</head>
 	<body>
 	<div class="container">
-		<div class="signup">
-			<h2 class="topHeading">SIGN UP</h2>
+		<div class="customfeedback">
+			<h2 class="topHeading">CUSTOMER FEEDBACK</h2>
 			<div class="signinDetail">
-				<input type="text" class="name" placeholder="Name">
-				<input type="text" class="email" placeholder="Email Address">
-				<input type="password" class="pwd" placeholder="Password">
-				<input type="password" class="confirmPwd" placeholder="Confirm Password">
-				<button class="signupBtn">Sign Up</button>
+       	<label for="name">Your name</label>
+				<input type="text" id="name" class="name" placeholder="Type here">
+				<label for="email">Email</label>
+				<input type="text" id="email" class="email" placeholder="example@mail.com">
+				<label for="review">Your Review</label><br>
+				<textarea id="review" class="review" row="5" placeholder="Type here"></textarea><br>
+				<label>Overall Experience</label><br>
+					<input type="radio" class="verygood">Very Good
+					<input type="radio" class="good">Good
+					<input type="radio" class="fair">Fair
+					<input type="radio" class="poor">Poor<br><br>
+				<label>Timely Response</label><br>
+					<input type="radio" class="verygood">Very Good
+					<input type="radio" class="good">Good
+					<input type="radio" class="fair">Fair
+					<input type="radio" class="poor">Poor<br><br>
+				<label>Our Support</label><br>
+					<input type="radio" class="verygood">Very Good
+					<input type="radio" class="good">Good
+					<input type="radio" class="fair">Fair
+					<input type="radio" class="poor">Poor<br><br>
+				<label>Overall Satisfaction</label><br>
+					<input type="radio" class="verygood">Very Good
+					<input type="radio" class="good">Good
+					<input type="radio" class="fair">Fair
+					<input type="radio" class="poor">Poor<br><br>
+				<label for="name">Want to rate us with for customer services?</label><br>
+					<div class="stars">
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+				</div><br><br>
+					<label for="name">Is there anything would like to tell us?</label><br><br>
+
+
+
+				<button class="submit">Submit</button>
 			</div>
 		</div>
 	</div>
